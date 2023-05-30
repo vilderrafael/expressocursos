@@ -1,3 +1,49 @@
 *{
-    background-color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: green;
+
+}
+header  h1{
+    padding: 10px;
+    text-align: center;
+}
+.menu{
+    display: none;
+}
+.menu > ul{
+    list-style-type: none;
+}
+.menu ul li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    border: solid yellow 2px;
+}
+.menu ul li a:hover{
+    background-color: aqua;
+}
+main{
+    width: 90vw;
+    background-color: bisque;
+    margin: auto;
+    margin-top: 10px;
+    padding:10px;
+    border-radius: 10px;
+    text-align: justify;
+    text-indent: 30px;
+}
+#iconemenu{
+    background-color: azure;
+    width: 100vw;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
 }
