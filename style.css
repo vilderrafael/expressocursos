@@ -47,3 +47,12 @@ main{
     padding: 5px;
     cursor: pointer;
 }
+.logo{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.logo img{
+    width: 150px;
+}
